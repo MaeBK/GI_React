@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .peopleList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 1rem;
+    justify-content: center;
+  }
+  
+  .person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin-bottom: 5%;
+  }
+  
+  .person h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding: 20px;
+  }
+  
+  .person p{
+    display: flex;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    align-self: flex-start;
+  }
